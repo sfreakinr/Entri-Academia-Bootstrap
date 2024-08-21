@@ -5,3 +5,20 @@
 #topc{
     padding-bottom: 25px;
 }
+
+footer{
+    border-top: 1px solid black;
+}
+
+.card{
+    position: relative;
+    border-radius: 7px;
+}
+
+.card:hover{
+    position: relative;
+    transition: all 0.25s;
+    z-index: 1;
+    transform: scale(1.15);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
